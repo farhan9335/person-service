@@ -1,0 +1,17 @@
+server:
+  port: 5000
+
+spring:
+  datasource:
+    url: jdbc:mariadb://rdsdemo.c3yoms77ybxq.us-east-1.rds.amazonaws.com:3306/demoDB
+    username: root
+    password: ADmin#1122
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernet:
+       dialect: org.hibernate.dialect.MariaDBDialect
+                        
