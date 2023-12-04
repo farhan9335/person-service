@@ -12,7 +12,7 @@ spring:
        
 learning:
      aws:
-      access_key: AKIAQUMJZLV6EMBCVSAJ
-      secret_key: 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
+      access_key: 
+      secret_key: 
              
                         
